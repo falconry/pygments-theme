@@ -2,7 +2,7 @@
 
 This repository contains the following [Pygments](https://pygments.org/) styles:
 
-* ~~falconry-light~~ – not implemented yet
+* `falconry-light` – style for light background
 * `falconry-dark` – style for dark background
 
 These styles are primarily intended for
