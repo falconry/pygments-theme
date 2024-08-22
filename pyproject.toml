@@ -33,8 +33,8 @@ classifiers = [
 dependencies = ["pygments >= 1.5"]
 
 [project.entry-points."pygments.styles"]
-# falconry-light = "falconry_pygments_theme.light:LightTheme"
-falconry-dark = "falconry_pygments_theme.dark:DarkTheme"
+# falconry-light = "falconry_pygments_theme.light:FalconryLightStyle"
+falconry-dark = "falconry_pygments_theme.dark:FalconryDarkStyle"
 
 [project.urls]
 "Homepage" = "https://github.com/falconry/pygments-theme"
