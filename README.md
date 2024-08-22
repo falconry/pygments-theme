@@ -1,8 +1,8 @@
-# Falconry Pygments Styles
+# Falconry Pygments Theme
 
-This repository ~~contains~~ will contain the following [Pygments](https://pygments.org/) styles:
+This repository contains the following [Pygments](https://pygments.org/) styles:
 
-* `falconry-light` – style for light background
+* ~~falconry-light~~ – not implemented yet
 * `falconry-dark` – style for dark background
 
 These styles are primarily intended for
