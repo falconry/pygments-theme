@@ -1,0 +1,32 @@
+# Run tests using Tox.
+name: tests
+
+on:
+  push:
+    branches:
+      - "*"
+    pull_request:
+      branches:
+        - master
+
+jobs:
+  tox:
+    name: tox
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 10
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run Tox
+        run: |
+          pip install --upgrade pip
+          pip install --upgrade tox
+          tox
