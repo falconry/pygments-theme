@@ -49,3 +49,29 @@ license-files = ["LICENSE"]
 target-version = "py38"
 format.quote-style = "single"
 line-length = 79
+
+[tool.ruff.lint]
+select = [
+  "C9",
+  "E",
+  "F",
+  "W",
+  "I"
+]
+
+[tool.ruff.lint.mccabe]
+max-complexity = 15
+
+[tool.ruff.lint.isort]
+case-sensitive = false
+force-single-line = true
+order-by-type = false
+single-line-exclusions = [
+  "typing",
+]
+force-sort-within-sections = true
+
+[tool.pytest]
+testpaths = [
+    "tests",
+]

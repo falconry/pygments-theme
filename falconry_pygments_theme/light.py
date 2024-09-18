@@ -13,19 +13,19 @@
 # limitations under the License.
 
 from pygments.style import Style
-from pygments.token import (
-    Comment,
-    Error,
-    Generic,
-    Keyword,
-    Name,
-    Number,
-    Operator,
-    String,
-    Token,
-)
+from pygments.token import Comment
+from pygments.token import Error
+from pygments.token import Generic
+from pygments.token import Keyword
+from pygments.token import Name
+from pygments.token import Number
+from pygments.token import Operator
+from pygments.token import String
+from pygments.token import Token
 
-from .common import bold, italic, bold_italic
+from .common import bold
+from .common import bold_italic
+from .common import italic
 
 
 class Colors:
