@@ -30,5 +30,6 @@ def main():
     example.try_except()
 
 
+# NOTE: __name__ is rendered as the class Name.Variable.Magic in Pygments.
 if __name__ == '__main__':
     main()

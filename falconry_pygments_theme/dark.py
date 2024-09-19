@@ -33,9 +33,10 @@ class Colors:
     orange = '#df5a1f'
     crimson = '#ed3b5f'
     brown = '#bc9458'
-    green = '#a5c261'
+    olive = '#c2c200'
+    green = '#73b07b'
     pear = '#c9cc3f'
-    blue = '#d0d0ff'
+    purple = '#ce7ebe'
     darkgray = '#171717'
     white = '#e6e1dc'
 
@@ -54,28 +55,28 @@ class FalconryDarkStyle(Style):
         Comment.PreProc: italic | Colors.brown,
         Comment.Special: bold_italic | Colors.brown,
         Keyword: bold | Colors.orange,
-        Keyword.Type: Colors.blue,
+        Keyword.Type: Colors.olive,
         Operator: Colors.white,
         Operator.Word: Colors.white,
-        String: Colors.green,
+        String: Colors.olive,
         String.Escape: Colors.pear,
-        Number: Colors.pear,
+        Number: Colors.purple,
         Name.Builtin: bold | Colors.orange,
-        Name.Builtin.Pseudo: Colors.blue,
-        Name.Variable: Colors.white,
-        Name.Variable.Magic: Colors.blue,
+        Name.Builtin.Pseudo: Colors.yellow,
+        Name.Variable: Colors.green,
+        Name.Variable.Magic: Colors.purple,
         Name.Constant: Colors.green,
-        Name.Class: bold | Colors.yellow,
-        Name.Function: bold | Colors.yellow,
+        Name.Class: bold | Colors.green,
+        Name.Function: bold | Colors.green,
         Name.Namespace: Colors.white,
         Name.Exception: Colors.crimson,
         Name.Tag: Colors.white,
         Name.Attribute: Colors.white,
-        Name.Decorator: bold | Colors.blue,
+        Name.Decorator: bold | Colors.purple,
         Generic.Heading: bold | Colors.yellow,
-        Generic.Subheading: bold | Colors.yellow,
+        Generic.Subheading: bold | Colors.olive,
         Generic.Deleted: Colors.crimson,
-        Generic.Inserted: Colors.blue,
+        Generic.Inserted: Colors.purple,
         Generic.Error: Colors.crimson,
         Generic.Emph: italic,
         Generic.Strong: bold,
