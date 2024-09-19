@@ -11,12 +11,11 @@ they are open source – reuse or mod if you wish.
 
 ## Accessibility
 
-We are just trying to get something aesthetic out for now;
-the future goal is to meet at least the
+Both styles meet at least the AA level of the
 [WCAG 2.1 criteria](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html)
-for color contrast.
+for color contrast of normal text.
 
 ## Acknowledgements
 
-The implementation and structure of Pygment styles were inspired by
+The WCAG contrast tests were inspired by
 [accessible-pygments](https://github.com/Quansight-Labs/accessible-pygments).
