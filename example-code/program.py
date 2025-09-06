@@ -1,3 +1,4 @@
+import functools
 import typing
 
 
@@ -12,6 +13,10 @@ class ExampleClass:
         self._item = item
         # Just to check formatting of some boolean operators
         self._bools = (False or True, False and True)
+
+    @functools.lru_cache(maxsize=4)
+    def count_bools(self):
+        return sum(int(value) for value in self._bools)
 
     def __enter__(self):
         return self
@@ -41,6 +46,7 @@ class ExampleClass:
 
 def main():
     example = ExampleClass([1, 2, 3])
+    assert example.count_bools() == 1
     example.print_item()
     example.try_except()
 
